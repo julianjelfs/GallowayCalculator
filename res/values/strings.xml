@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Galloway Calculator</string>
+    <string name="menu_settings">Settings</string>
+    <string name="runtime">Run time (seconds)</string>
+    <string name="runpace">Run pace (min/mile)</string>
+    <string name="walktime">Walk time (seconds)</string>
+    <string name="walkpace">Walk pace (min/mile)</string>
+    <string name="calculate">Calculate</string>
+    <string name="distance">Distance (miles)</string>
+    <string name="stoptime">Stop time (minutes)</string>
+
+</resources>

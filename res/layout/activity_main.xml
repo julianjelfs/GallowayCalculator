@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity" >
+    
+    <EditText
+        android:id="@+id/distance"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/distance"
+        android:inputType="number|numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/runtime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/runtime"
+        android:inputType="number|numberDecimal" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/runpace"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/runpace"
+        android:inputType="number|numberDecimal" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/walktime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/walktime"
+        android:inputType="number|numberDecimal" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/walkpace"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/walkpace"
+        android:inputType="number|numberDecimal" >
+    </EditText>
+    
+    <EditText
+        android:id="@+id/stoptime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/stoptime"
+        android:inputType="number|numberDecimal" >
+    </EditText>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="calculate"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Result"
+        android:textColor="#FF0000" />
+
+</LinearLayout>
